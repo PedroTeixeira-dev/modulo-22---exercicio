@@ -1,0 +1,27 @@
+@use 'hero';
+@use 'introducao';
+@use 'namoro';
+@use 'noivado';
+@use 'casamento';
+@use 'despedida';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Monotype Corsiva;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media (max-width: 640px) {
+        max-width: 80%;
+    }
+
+    @media (max-width: 1024px) {
+        max-width: 90%;
+    }
+}

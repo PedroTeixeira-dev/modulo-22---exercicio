@@ -1,0 +1,17 @@
+.despedida {
+    background-image: linear-gradient(#E0E4EA, #DEC90F);
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+
+    &__text {
+        color: black;
+        font-size: 36px;
+        font-family: Monotype Corsiva;
+        font-weight: 400;
+        word-wrap: break-word;
+        text-align: center;
+    }
+}

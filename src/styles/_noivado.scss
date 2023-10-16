@@ -1,0 +1,38 @@
+.noivado {
+    background-image: linear-gradient(#DEC90F, #1066E5);
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    &__info {
+        color: whitesmoke;
+        &__title {
+            text-align: center;
+            font-size: 36px;
+        }
+
+        &__text {
+            font-size: 24px;
+        }
+    }
+    @media (max-width:640px){
+        .container{
+            display: block;
+        }
+
+        &__img {
+            width: 100%;
+            margin-top: 16px;
+        }
+        &__info {
+            text-align: center;
+        }
+    }
+    
+}
